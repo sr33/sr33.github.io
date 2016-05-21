@@ -1,0 +1,29 @@
+body {
+    background: #F2F2F2 !important;
+    font-family: Roboto;
+}
+
+.profile-picture {
+    width: 50% !important;
+    height: 50% !important;
+    border-radius: 50% !important;
+    margin-top: 10% !important;
+}
+
+.sidebar-meta {
+    background-color: #287489 !important;
+    color: white !important;
+}
+
+.sidebar-contact {
+    background-color: #3298B4 !important;
+    color: white !important;
+}
+
+.panel-header{
+    color: #216475 !important;
+    background-color: white !important;
+    border-bottom: none !important;
+    padding-left: 2%;
+    padding-right: 2%;
+}
