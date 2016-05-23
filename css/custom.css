@@ -1,13 +1,33 @@
 body {
     background: #F2F2F2 !important;
     font-family: Roboto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
+/*header css*/
+.header {
+    background-color: #287489 !important;
+    color: white !important;
+    margin-top: 0.25% !important;
+}
+
+.header-text{
+    margin-left: 15%;
+}
+
+.header a {
+    color: white;
+}
+
+/*end header css*/
+
 .profile-picture {
-    width: 50% !important;
-    height: 50% !important;
-    border-radius: 50% !important;
-    margin-top: 10% !important;
+    width: 10% !important;
+    height: 10% !important;
+    /*border-radius: 50% !important;*/
+    margin-top: 1% !important;
+    margin-bottom: 1% !important;
 }
 
 .sidebar-meta {
@@ -20,7 +40,7 @@ body {
     color: white !important;
 }
 
-.panel-header{
+.panel-header {
     color: #216475 !important;
     background-color: white !important;
     border-bottom: none !important;
