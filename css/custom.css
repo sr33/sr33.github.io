@@ -47,3 +47,12 @@ body {
     padding-left: 2%;
     padding-right: 2%;
 }
+
+.education-division{
+    border-left: solid;
+    border-left-color: #287489;
+}
+
+.education-division-body{
+    margin-left: 2%;
+}
