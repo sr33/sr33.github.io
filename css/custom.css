@@ -12,7 +12,7 @@ body {
     margin-top: 0.25% !important;
 }
 
-.header-text{
+.header-text {
     margin-left: 15%;
 }
 
@@ -22,6 +22,12 @@ body {
 
 /*end header css*/
 
+/*row equal height*/
+
+/*TODO*/
+
+/* end row equal height*/
+
 .profile-picture {
     width: 10% !important;
     height: 10% !important;
@@ -30,15 +36,6 @@ body {
     margin-bottom: 1% !important;
 }
 
-.sidebar-meta {
-    background-color: #287489 !important;
-    color: white !important;
-}
-
-.sidebar-contact {
-    background-color: #3298B4 !important;
-    color: white !important;
-}
 
 .panel-header {
     color: #216475 !important;
@@ -48,28 +45,29 @@ body {
     padding-right: 2%;
 }
 
-.education-division{
+.education-division {
     border-left: solid;
     border-left-color: #287489;
 }
 
-.education-division-body{
+.education-division-body {
     margin-left: 2%;
 }
 
-.company-icons{
+.company-icons {
     width: 5%;
     height: 5%;
 }
 
 .grow {
     /*-webkit-transition: all .3s ease; /!* Safari and Chrome *!/*/
-  	/*-moz-transition: all .3s ease; /!* Firefox *!/*/
-  	/*-o-transition: all .3s ease; /!* IE 9 *!/*/
+    /*-moz-transition: all .3s ease; /!* Firefox *!/*/
+    /*-o-transition: all .3s ease; /!* IE 9 *!/*/
     color: #216475;
     transition: all .6s ease-in-out;
     display: inline-block;
 }
+
 .grow:hover {
     /*-webkit-backface-visibility: hidden;*/
     /*backface-visibility: hidden;*/
@@ -78,4 +76,8 @@ body {
     /*-ms-transform:scale(1.20); /!* IE 9 *!/*/
     transform: scale(1.2);
     display: inline-block;
+}
+
+.colour-text{
+    color: #216475 !important;
 }
